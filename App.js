@@ -93,7 +93,7 @@ export default function App() {
             }}
           />
 
-          {/* ปุ่ม สินค้า ต้องเชื่อมโยงไปยังกลุ่ม Product */}
+          
           <Tab.Screen
             name="Curriculums"
             component={Curriculum}
@@ -119,7 +119,7 @@ export default function App() {
             }}
           />
 
-          {/* ปุ่ม สมาชิก ต้องเชื่อมโยงไปยังกลุ่ม Member */}
+          
           <Tab.Screen
             name="Teachers"
             component={TeacherStack}
